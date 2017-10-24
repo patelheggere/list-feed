@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom">
+        <item
+            android:id="@+id/eng"
+            android:title="@string/english_title"/>
+        <item
+            android:id="@+id/kan"
+            android:title="@string/kannada_title"/>
+        </item>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P. Rajeev</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name"> P. Rajeev</string>
+    <string name="news_tab">News</string>
+    <string name="grievence_tab">Grievence</string>
+    <string name="coming">Coming Soon...</string>
+    <string name="kannada_title">Kannada</string>
+    <string name="english_title"> English</string>
+    <string name="user_name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="place">Place</string>
+    <string name="signup">Submit</string>
+    <string name="valid_name">enter a valid Name </string>
+    <string name="valid_place">enter a valid Place</string>
+    <string name="valid_Phone">enter a valid Phone Number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

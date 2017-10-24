@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ಪಿ. ರಾಜೀವ</string>
+    <string name="action_settings">ಸೆಟ್ಟಿ೦ಗ್ಸ್</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name"> ಪಿ. ರಾಜೀವ</string>
+    <string name="news_tab">ಸುದ್ದಿಗಳು</string>
+    <string name="grievence_tab">ದೂರುಗಳು</string>
+    <string name="kannada_title">ಕನ್ನಡ</string>
+    <string name="english_title">ಇOಗ್ಲಿಷ್</string>
+    <string name="coming">ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ...</string>
+
+    <string name="user_name">ಹೆಸರು</string>
+    <string name="phone">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="place">ಊರು</string>
+    <string name="signup">ಸಲ್ಲಿಸಿ</string>
+
+    <string name="valid_name">ಸರಿಯಾದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="valid_place">ಸರಿಯಾದ ಸ್ಥಳವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="valid_Phone">ಸರಿಯಾದ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+
+</resources>
