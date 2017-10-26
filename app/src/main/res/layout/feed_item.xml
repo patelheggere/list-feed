@@ -97,13 +97,14 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/wwe_logo"/>
+                    android:src="@drawable/likeoff"/>
 
                 <TextView
                     android:id="@+id/tvLike"
+                    android:textSize="14dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.48"
+                    android:gravity="center"
                     android:text="Like" />
             </LinearLayout>
             <LinearLayout
@@ -116,7 +117,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/wwe_logo"/>
+                    android:src="@drawable/commenticon"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

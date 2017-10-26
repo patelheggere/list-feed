@@ -4,13 +4,21 @@ package com.patelheggere.listfeed.fragments;
  * Created by Talkative Parents on 10/11/2017.
  */
 
+import android.content.Context;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.DisplayMetrics;
+import android.view.Display;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.PopupWindow;
 
 import com.android.volley.Cache;
 import com.android.volley.Request;
@@ -24,6 +32,7 @@ import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Iterator;
 import java.util.List;
 
@@ -116,13 +125,14 @@ public class NewsFragment extends Fragment{
     private void parseJsonFeed(JSONObject response) {
 
         try {
+            System.out.println("parsedJson:"+response.toString());
             JSONObject object = new JSONObject(response.toString());
             Iterator<String> iterator = object.keys();
-
             while (iterator.hasNext()) {
-                JSONObject feedObj = object.getJSONObject(iterator.next());
-
+                String fbKey = iterator.next();
+                JSONObject feedObj = object.getJSONObject(fbKey);
                 FeedItem item = new FeedItem();
+                item.setFbKey(fbKey);
                 item.setId(feedObj.getInt("id"));
                 item.setName(feedObj.getString("name"));
 
@@ -140,6 +150,7 @@ public class NewsFragment extends Fragment{
                 item.setCommentCount(CommentCount);
                 item.setLikeCount(LikeCount);
                 item.setUrl(feedUrl);
+                //item.setFbKey(iterator.next());
                 feedItems.add(item);
             }
 
@@ -149,5 +160,6 @@ public class NewsFragment extends Fragment{
             e.printStackTrace();
         }
     }
+
 
 }

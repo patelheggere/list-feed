@@ -4,7 +4,7 @@ public class FeedItem {
 	private int id;
 	private String name, status, image, profilePic,  url;
 	Long timeStamp;
-	String LikeCount,commentCount;
+	String LikeCount,commentCount,FbKey;
 
 	public FeedItem() {
 	}
@@ -99,5 +99,13 @@ public class FeedItem {
 
 	public void setCommentCount(String commentCount) {
 		commentCount = commentCount;
+	}
+
+	public String getFbKey() {
+		return FbKey;
+	}
+
+	public void setFbKey(String fbKey) {
+		FbKey = fbKey;
 	}
 }

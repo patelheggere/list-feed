@@ -16,6 +16,11 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <!-- PopuP Enter Exit Animation -->
+    <style name="PopupAnimation" parent="Widget.AppCompat.PopupWindow">
+        <item name="android:windowEnterAnimation">@animator/bottom_up</item>
+        <item name="android:windowExitAnimation">@animator/bottom_down</item>
+    </style>
 
 
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
